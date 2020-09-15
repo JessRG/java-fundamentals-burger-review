@@ -1,3 +1,5 @@
+package model;
+
 public class Burger implements BurgerSale {
     // properties for bun, pickles, numPatties, Cheese
     private String burgerName;
@@ -34,7 +36,7 @@ public class Burger implements BurgerSale {
         }
     }
 
-    // public Burger(int numBuns, int numPickles, int numPatties, boolean cheese) {
+    // public model.Burger(int numBuns, int numPickles, int numPatties, boolean cheese) {
     //     this.numBuns = numBuns;
     //     this.numPickles = numPickles;
     //     this.numPatties = numPatties;
